@@ -22,6 +22,7 @@ import com.github.k1rakishou.chan.core.site.sites.Diochan
 import com.github.k1rakishou.chan.core.site.sites.Sushichan
 import com.github.k1rakishou.chan.core.site.sites.wired7.Wired7
 import com.github.k1rakishou.chan.core.site.sites.Vhschan
+import com.github.k1rakishou.chan.core.site.sites.Chan1500
 import com.github.k1rakishou.chan.core.site.sites.chan4.Chan4
 import com.github.k1rakishou.chan.core.site.sites.chan420.Chan420
 import com.github.k1rakishou.chan.core.site.sites.dvach.Dvach
@@ -75,6 +76,7 @@ object SiteRegistry {
     siteClasses.addSiteToSiteClassesMap(Kohlchan.SITE_NAME, Kohlchan::class.java)
     siteClasses.addSiteToSiteClassesMap(RozenArcana.SITE_NAME, RozenArcana::class.java)
     siteClasses.addSiteToSiteClassesMap(YesHoney.SITE_NAME, YesHoney::class.java)
+    siteClasses.addSiteToSiteClassesMap(Chan1500.SITE_NAME, Chan1500::class.java)
 
     // A synthetic site which only purpose is to have an order in the global site order for composed
     // catalogs when showing them on the board selection screen.
